@@ -1,0 +1,38 @@
+body {
+    background-color: #1D232A;
+    width: 22.5rem;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cabecalho-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #15191C;
+    width: 22.5rem;
+    height: 3.5rem;
+    padding: .5rem 1rem;
+    box-shadow: 0rem .25rem .25rem rgba(0, 0, 0, 0.16);
+}
+
+.menu-lateral-container {
+    display: flex;
+    flex-direction: column;
+    width: 12.75rem;
+    height: 100vh;
+    background-color: #15191C;
+}
+
+.menu-lateral-logo {
+    width: 7.375rem;
+    height: 7.375rem;
+    align-self: center;
+}
+
+.menu-lateral-icone {
+    margin: 23px 1.125rem 1.5rem 1.5rem;
+}
+
+.menu-lateral-link {
+    margin: 1rem 100px 1rem 4rem;
+}
