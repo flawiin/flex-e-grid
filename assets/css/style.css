@@ -1,8 +1,13 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
 body {
     background-color: #1D232A;
     width: 22.5rem;
     height: 100vh;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'icones', sans-serif;
 }
 
 .cabecalho-container {
@@ -35,7 +40,7 @@ body {
     display: flex;
     gap: 1rem;
     padding: 1rem 1rem 1rem 1.5rem;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'icones', sans-serif;
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -45,5 +50,8 @@ body {
 }
 
 .menu-lateral-link::before {
-    content: "\e905";
+    content: "\e900";
+    font-size: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
 }
