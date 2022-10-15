@@ -10,7 +10,7 @@ body {
     font-family: 'Open Sans', 'icones', sans-serif;
 }
 
-.cabecalho-container {
+.cabecalho {
     display: flex;
     justify-content: space-between;
     background-color: #15191C;
@@ -20,12 +20,27 @@ body {
     box-shadow: 0rem .25rem .25rem rgba(0, 0, 0, 0.16);
 }
 
-.menu-lateral-container {
+.cabecalho-menu i::before {
+    content: "\e904";
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.cabecalho-notificacao i::before {
+    content: "\e906";
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.menu-lateral {
     display: flex;
     flex-direction: column;
     width: 12.75rem;
-    height: 100vh;
+    height: 64rem;
     background-color: #15191C;
+    boer
 }
 
 .menu-lateral-logo {
@@ -54,4 +69,32 @@ body {
     font-size: 1.5rem;
     width: 1.5rem;
     height: 1.5rem;
+}
+
+.menu-lateral-link--inicio::before {
+    content: "\e902";
+}
+
+.menu-lateral-link--video::before {
+    content: "\e90e";
+}
+
+.menu-lateral-link--picos::before {
+    content: "\e908";
+}
+
+.menu-lateral-link--integrantes::before {
+    content: "\e903";
+}
+
+.menu-lateral-link--camisas::before {
+    content: "\e900";
+}
+
+.menu-lateral-link--pinturas::before {
+    content: "\e90a";
+}
+
+.menu-lateral-link:active {
+    color: #FFFFFF;
 }
