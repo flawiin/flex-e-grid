@@ -40,7 +40,14 @@ body {
     width: 12.75rem;
     height: 64rem;
     background-color: #15191C;
-    boer
+    position: absolute;
+    left: -100vw;
+    transition: .25s;
+}
+
+.menu-lateral--ativo {
+    left: 0;
+    transition: .25s;
 }
 
 .menu-lateral-logo {
@@ -50,6 +57,7 @@ body {
     margin-top: 1.5rem;
     margin-bottom: 1.875rem;
 }
+
 
 .menu-lateral-link {
     display: flex;
@@ -63,6 +71,14 @@ body {
     color: #95999C;
 
 }
+
+.menu-lateral-link--ativo {
+    color: #FFFFFF;
+    padding-left: 1rem;
+    border-left: 8px solid #FFFFFF;
+    
+}
+
 
 .menu-lateral-link::before {
     content: "\e900";
@@ -95,6 +111,3 @@ body {
     content: "\e90a";
 }
 
-.menu-lateral-link:active {
-    color: #FFFFFF;
-}
