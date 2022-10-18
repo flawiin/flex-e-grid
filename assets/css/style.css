@@ -42,12 +42,12 @@ body {
     background-color: #15191C;
     position: absolute;
     left: -100vw;
-    transition: .25s;
+    transition: .75s;
 }
 
 .menu-lateral--ativo {
     left: 0;
-    transition: .25s;
+    transition: .75s;
 }
 
 .menu-lateral-logo {
@@ -109,5 +109,19 @@ body {
 
 .menu-lateral-link--pinturas::before {
     content: "\e90a";
+}
+
+/* Main */
+
+.principal {
+    width: 20.5rem;
+    margin-left: 1.75rem;
+    margin-top: 4rem;
+}
+
+.cartao {
+    width: 20.5rem;
+    height: 100vh;
+    margin: 0 auto;
 }
 
