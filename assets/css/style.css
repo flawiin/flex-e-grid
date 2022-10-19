@@ -115,13 +115,69 @@ body {
 
 .principal {
     width: 20.5rem;
-    margin-left: 1.75rem;
-    margin-top: 4rem;
+    margin-left: 2.125rem;
+}
+
+.cartao-titulo-pagina {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.625rem;
+    font-weight: 700;
+    line-height: 2rem;
+    color: #FFFFFF;
+    width: 4.5rem;
+    height: 2rem;
+    padding: 1.5rem 0px .5rem 0;
 }
 
 .cartao {
     width: 20.5rem;
-    height: 100vh;
-    margin: 0 auto;
+    height: 32.125rem;
+    border-radius: 1rem 1rem;
+    background-color:  #2C343A;
 }
+
+.cartao-destaque {
+    width: 18.5rem;
+    height: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 2rem;
+    color: #FFFFFF;
+    padding: 16px 16px 8px 16px;
+}
+
+.cartao-titulo {
+    width: 18.5rem;
+    height: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    color: #FFFFFF;
+    padding: 8px 16px 8px 16px;
+}
+
+.cartao-perfil {
+    width: 6.25rem;
+    height: 1.5rem;
+    color: #95999C;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .875rem;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5rem;
+    padding-left: 1rem;
+}
+
+.cartao-tempo {
+    display: inline;
+}
+
+.cartao-visualizacao {
+    display: inline-block;
+}
+
 
